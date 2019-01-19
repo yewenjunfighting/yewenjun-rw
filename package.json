@@ -1,0 +1,23 @@
+{
+  "name": "yewenjun-rw",
+  "version": "1.0.0",
+  "description": "简单的读写文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 2000 --recursive tests/"
+  },
+  "keywords": [
+    "read",
+    "write"
+  ],
+  "author": "yewenjunfighting",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1"
+  }
+}
